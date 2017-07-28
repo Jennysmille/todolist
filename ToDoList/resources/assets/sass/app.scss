@@ -1,0 +1,65 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// // Bootstrap
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+body{
+  text-align: center;
+  background-color: #EDEDED;
+}
+
+h1{
+  margin-top: 2%;
+  color: pink;
+}
+
+ul,li{
+  display: block;
+  list-style-type: none;
+}
+
+li{
+  flex-wrap: wrap;
+
+}
+footer{
+  text-align: right;
+  font-size: 20px;
+  color: #FEA9D3;
+
+}
+
+header{
+  font-size: 80px;
+  text-align: center;
+  margin-top: 5%;
+  color: pink;
+}
+
+a, a:link {
+  text-decoration: none;
+  margin: 2%;
+  color: blue;
+}
+
+
+// a:hover, a:active{
+//   color: grey;
+//
+// }
+
+// a:visited{
+//   color: grey;
+//
+// }
+//
+// input:focus{
+//   color: grey;
+//
+// }
